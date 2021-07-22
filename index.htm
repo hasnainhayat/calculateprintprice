@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculate Magazine Price</h1>
+    
+    <form>
+        <div class="container">
+        <div class="form-group">
+            <label>Paper Price:</label>
+            <input type="number" placeholder="Paper Price" id="paperPrice">
+        </div>
+        <div class="form-group">
+            <label>Outs:</label>
+            <input type="number" placeholder="Outs" id="outs">
+        </div>
+        <div class="form-group">
+            <label>Quantity:</label>
+            <input type="number" placeholder="Quantity" id="quantity">
+        </div>
+        <div class="form-group">
+            <label>Color:</label>
+            <input type="number" placeholder="Color" id="color">
+        </div>
+        <div class="form-group">
+            <label>Side:</label>
+            <input type="number" placeholder="Side" id="side">
+        </div>
+        <div class="form-group">
+            <label>Lamination:</label>
+            <input type="number" placeholder="Lamination" id="lamination">
+        </div>
+        <div class="form-group">
+            <label>Pages:</label>
+            <input type="number" placeholder="Pages" id="pages">
+        </div>
+        <div class="form-group">
+            <label>Total:</label>
+            <input type="number" placeholder="Total" disabled id="total" value="0">
+        </div>
+        </div>
+        <div class="btn-container">
+        <span onclick="calculate()" class="btn" >Calculate</span>
+    </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
